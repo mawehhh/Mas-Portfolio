@@ -36,6 +36,23 @@ export default function SHSProjectsSection({ onSelectProject, onNavigateToSectio
       fullDescription: "Developed during Senior High School at STI College as an Android mobile application for a hotel called 'M Suites'. The primary goal of the project was to showcase the hotel's facilities and services through an attractive and user-friendly interface. Built using Android Studio, Java, and MySQL, the app features a login and registration system with a hotel-themed background, a management dashboard with key modules (Activity, Ratings, Crews, and Guest Rooms), and detailed activity pages such as pool information with star ratings and a submit feedback form. The project focused heavily on UI design and simple database connectivity to demonstrate mobile development fundamentals.",
       tags: ["Android Studio", "Java", "MySQL", "Mobile App"],
       images: ["/hotel_app_3.png", "/hotel_app_1.png", "/hotel_app_2.png"]
+    },
+    {
+      id: "shs-eyeit",
+      title: "EYE-IT — Inventory & Planner App",
+      period: "STI College Santa Cruz (2020 – 2021)",
+      category: "Mobile Application",
+      institution: "STI College Santa Cruz",
+      description: "A multi-feature Android mobile app combining inventory management, a scheduling planner with calendar view, and push notifications — built to help users track their stock and manage tasks efficiently.",
+      fullDescription: "EYE-IT is an Android mobile application developed during Senior High School at STI College. The app provides three core features in one an Inventory module that lets users organize items by category (Clothing, Food & Beverages) and track product details like model name, type, quantity, size, and price, a Planner module with a full calendar view where users can schedule tasks and events with push notification reminders; and a Notes feature for quick memos. Built using Java and MySQL as the backend database, EYE-IT demonstrates mobile development fundamentals including authentication (Login & Sign Up), CRUD operations, and real-time notification scheduling.",
+      tags: ["Java", "MySQL", "Android", "Mobile App"],
+      images: [
+        "/eyeit_2.png",
+        "/eyeit_1.png",
+        "/eyeit_3.png",
+        "/eyeit_4.png",
+        "/eyeit_5.png"
+      ]
     }
   ];
 
